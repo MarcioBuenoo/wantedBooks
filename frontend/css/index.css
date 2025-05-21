@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: #915826;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C2828;
+    opacity: 75%;
+    width: 98%;
+    height: 6rem;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 2rem 0 0 0;
+}
+
+.cabecalho__titulo {
+    color: #FFFFFF;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 0 0 0 15px;
+}
+
+.cabecalho__sidebar {
+    
+}
