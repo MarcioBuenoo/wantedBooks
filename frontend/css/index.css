@@ -25,6 +25,29 @@ body {
     padding: 0 0 0 15px;
 }
 
-.cabecalho__sidebar {
-    
+.cabecalho__sidebar__button img {
+    padding: 0 15px 0 0;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0 0 0;
+    height: 8rem; 
+    width: 100%;
+}
+
+.searchbar__form {
+    height: 100%;
+    width: 40%;
+}
+
+.searchbar__form__input {
+    background-color: #2C2828;
+    opacity: 75%;
+    height: 70%;
+    width: 100%;
+    border-radius: 50px;
+    padding: 1rem 1rem 1rem 1rem;
 }
