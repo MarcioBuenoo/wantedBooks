@@ -1,7 +1,8 @@
 # 📕WantedBooks
 
-    O wantedBooks é uma plataforma de Backlog de livros, reviews, consulta de preços e comunidade. Com objetivo de conectar pessoas pelas palavras e 
-    linhas de um livro buscamos escrever história no mercado de livros.
+<p>
+    Com objetivo de conectar pessoas através de livros e suas linhas... A WantedBooks nasceu com a premissa de criar um espaço para backlog de livros, reviews, opniões e promoções de livros.
+</p>
 
-## Tecnologias utilizadas:
+## 🛠️Tecnologias utilizadas:
 
