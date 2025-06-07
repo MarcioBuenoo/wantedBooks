@@ -98,3 +98,15 @@ body {
     width: 15rem;
     height: 15rem;
 }
+
+/* Estilização do Rodapé */
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape__logo__texto {
+    color: #FFFFFF;
+}
