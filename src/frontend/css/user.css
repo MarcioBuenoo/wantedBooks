@@ -118,45 +118,12 @@ body {
     text-decoration: underline;
 }
 
-
-/* Estilização da Exposição dos livros*/
-
-.books__showcase {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 1rem 0 1rem;
-}
-
-.books__showcase__box {
-    background-color: #D9D9D9;
-    width: 15rem;
-    height: 15rem;
-}
-
-.books__showcase__bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
-}
-
-.books__showcase__bottom__box {
-    background-color: #D9D9D9;
-    width: 15rem;
-    height: 15rem;
-}
-
 /* Estilização do Rodapé */
 
 .rodape {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2C2828;
-    opacity: 75%;
 }
 
 .rodape__logo__texto {
