@@ -157,8 +157,16 @@ body {
     align-items: center;
     background-color: #2C2828;
     opacity: 75%;
+    width: 100%;
+    height: 6rem;
 }
 
 .rodape__logo__texto {
     color: #FFFFFF;
+}
+ 
+.rodape__links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
