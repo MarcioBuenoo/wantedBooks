@@ -124,6 +124,17 @@ body {
 .sidebar__menu a:hover {
     text-decoration: underline;
 }
+/* Estilização User */
+
+.user__image {
+    height: 20rem;
+    width: 20rem;
+    background-image: url(../../assets/user.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
 
 /* Estilização do Rodapé */
 

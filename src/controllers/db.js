@@ -1,1 +1,1 @@
-asda
+const db = require("db");
