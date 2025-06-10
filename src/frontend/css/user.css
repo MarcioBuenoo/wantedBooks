@@ -145,6 +145,6 @@ body {
  
 .rodape__links a {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }

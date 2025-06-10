@@ -162,6 +162,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1.5rem;
     background-color: var(--elements-color);
     opacity: 75%;
     width: 100%;
@@ -176,6 +177,6 @@ body {
  
 .rodape__links a {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
