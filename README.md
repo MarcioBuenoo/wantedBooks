@@ -9,3 +9,6 @@
 ##  Estrutura do projeto 🧩:
 
 ## Desenvolvedor 👤:
+
+| Marcio R. Bueno Junior | [MarcioBuenoo](https://github.com/MarcioBuenoo) | [LinkedIn](https://www.linkedin.com/in/marcio-roberto-bueno-junior-02a2a4248/) |
+| ---------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------ |
