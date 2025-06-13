@@ -126,14 +126,30 @@ body {
 }
 /* Estilização User */
 
+.user {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
 .user__image {
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
     background-image: url(../../assets/user.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.user__statistics {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--text-primary-color);
 }
 
 /* Estilização do Rodapé */
