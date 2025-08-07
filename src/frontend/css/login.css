@@ -1,0 +1,43 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Variáveis */
+:root {
+    --background-color: #915826;
+    --elements-color: #2C2828;
+    --text-primary-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+main {
+    height: 80vh;
+    width:30vw ;
+}
+
+/* Estilização do Rodapé */
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: var(--elements-color);
+    opacity: 75%;
+    width: 100%;
+    height: 6rem;
+    position: fixed;
+    bottom: 0;
+}
+
+.rodape__logo__texto {
+    color: var(--text-primary-color);
+}
+ 
+.rodape__links a {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
