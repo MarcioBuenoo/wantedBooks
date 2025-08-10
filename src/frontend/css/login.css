@@ -17,6 +17,19 @@ main {
     width:30vw ;
 }
 
+/* Estilização Container do Login */
+
+.login__container {
+    height: 80vh;
+    width: 40vh;
+}
+
+.login__container__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Estilização do Rodapé */
 
 .rodape {
