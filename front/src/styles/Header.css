@@ -1,28 +1,18 @@
-/* src/components/Header/Header.css */
-
-.app-header {
+.Header-container {
+  margin-top: 0.5rem; 
+  padding: 1rem;
+  height: 3rem;
+  width: 96vw;
   display: flex;
-  justify-content: space-between; /* Alinha os itens nas extremidades */
+  justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #2c3e50;
-  color: white;
-  border-radius: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  width: 95vw;
+  background-color: #916D42;
+  border-radius: 13px;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.menu-button {
-  background: none;
-  border: 1px solid white;
-  color: white;
-  padding: 8px 12px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  border-radius: 5px;
+.Header-titulo {
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
