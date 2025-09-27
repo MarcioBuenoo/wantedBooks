@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Sidebar.css'; // Importaremos o nosso CSS aqui
+import '../../styles/Sidebar.css'; // Importaremos o nosso CSS aqui
 
 interface SidebarProps {
     isOpen: boolean;
