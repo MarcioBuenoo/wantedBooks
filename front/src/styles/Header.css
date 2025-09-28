@@ -1,4 +1,4 @@
-.Header-container {
+.app-header {
   margin-top: 0.5rem; 
   padding: 1rem;
   height: 3rem;
@@ -10,7 +10,7 @@
   border-radius: 13px;
 }
 
-.Header-titulo {
+.logo {
   color: #fff;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;

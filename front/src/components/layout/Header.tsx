@@ -1,14 +1,30 @@
-import '../../styles/Header.css'
+import { useState } from 'react';
+import Sidebar from '../ui/Sidebar'; 
+import '../../styles/Header.css'; 
 
-export default function Header() {
-  return(
-    <header className="Header-container">
-      <a href="" className='Header-titulo'>
-        wantedBooks
-      </a>
-      <button className='Header-button'>
-        ☰
-      </button>
-    </header>
-  )
-}
+const Header: React.FC = () => {
+
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen); 
+  };
+
+  return (
+    <>
+      <header className="app-header">
+        <div className="logo">
+          wantedBooks
+        </div>
+        <button onClick={toggleSidebar} className="menu-button">
+          ☰ 
+        </button>
+      </header>
+      
+
+      <Sidebar isOpen={isSidebarOpen} onClose={toggleSidebar} />
+    </>
+  );
+};
+
+export default Header;
